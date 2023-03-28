@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Shoe Store</title>
+</head>
+
+<body>
+  <header>
+    <div class="barraIncial">
+      <div class="barraIncialContenido">
+        <img src="/imagenes/—Pngtree—tmall running festival cartoon sneakers_4376207.png" alt="icono zapatilla"
+          class="iconoBarraInicial">
+      </div>
+      <div class="barraIncialContenido">
+        <h3>12 cuotas sin interes</h3>
+      </div>
+      <div class="barraIncialContenido">
+        <h3> shoestore@store.com 0800-222-3000</h3>
+      </div>
+    </div>
+    <div class="imagenHeader">
+      <h1 class="tituloHeader">Zapatillas para correr</h1>
+    </div>
+  </header>
+  <nav class="nav">
+    <ul class="navBar">
+      <li> <a href="index.html"> Inicio </a></li>
+      <li> <a href=#amateur>Amateur</a></li>
+      <li> <a href=#profesional>Profesional</a></li>
+      <li> <a href=#montana>Trail</a></li>
+      <li> <a href="distribuidores.html">Distribuidores</a></li>
+      <li> <a href=#contacto>Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article class="tarjetasVarias">
+      <div class="tarjeta">
+        <div class="titulo" id="amateur">Running Amateur</div>
+        <div class="cuerpo">
+          <img src="/imagenes/correr amateur.jpg" alt="gente corriendo" class="imagenTarjeta">
+        </div>
+        <div class="pie">
+          <button id="botonRunningAmateur">Modelos</button>
+        </div>
+      </div>
+      <div class="tarjeta">
+        <div class="titulo" id="profesional">Running Profesional</div>
+        <div class="cuerpo">
+          <img src="/imagenes/running profesional.jpg" alt="gente corriendo" class="imagenTarjeta">
+        </div>
+        <div class="pie">
+          <button id="botonRunningProfesional">Modelos</button>
+        </div>
+      </div>
+      <div class="tarjeta">
+        <div class="titulo" id="montana">Running de montaña</div>
+        <div class="cuerpo">
+          <img src="/imagenes/running profesional.jpg" alt="gente corriendo" class="imagenTarjeta">
+        </div>
+        <div class="pie">
+          <button id="botonRunningMontana">Modelos</button>
+        </div>
+      </div>
+    </article>
+    <article id="renderizado"></article>
+  </main>
+  <footer class="footer">
+    <div>
+      <br>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6706.0033538904445!2d-68.80475522147209!3d-32.81872053989985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08b3ec6c4d21%3A0x67a4bf0db9b2add2!2sTrapolimp.%20Productos%20Textiles%2C%20Mendoza%2C%20Argentina!5e0!3m2!1ses!2sar!4v1679945187587!5m2!1ses!2sar"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+      <ol>
+        <li><a href=#amateur>Modelos Amateur</a></li>
+        <li><a href=#profesional>Modelos Profesionales</a></li>
+        <li><a href=#montana>Modelos Trail</a></li>
+        <li><a href="distribuidores.html">Distribuidores</a></li>
+      </ol>
+    </div>
+    <div class="formulario" id="contacto">
+      <h1>¿Alguna duda?</h1>
+      <form action="../../form-result.php" target="_blank" class="inputFormulario">
+        <p><label>Nombre: <input type="text" name="nombre" placeholder="Nombre"></label></p>
+        <p><label>Email: <input type="email" name="correo" placeholder="correo"></label></p>
+        <p>
+          <label>
+            Tu mensaje:
+            <textarea name="mensaje" placeholder="consulta"></textarea>
+          </label>
+        </p>
+        <p>
+          <input type="submit" value="Enviar mensaje">
+          <input type="reset" value="Comenzar de nuevo">
+        </p>
+      </form>
+    </div>
+  </footer>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
