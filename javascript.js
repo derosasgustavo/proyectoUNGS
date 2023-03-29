@@ -1,7 +1,7 @@
 let renderizado = document.getElementById("renderizado");
-let botonRunningAmateur = document.getElementById("botonRunningAmateur");
-let botonRunningProfesional = document.getElementById("botonRunningProfesional");
-let botonRunningMontana = document.getElementById("botonRunningMontana")
+let botonRunningAmateur = document.getElementById("tarjetaAmateur");
+let botonRunningProfesional = document.getElementById("tarjetaProfesional");
+let botonRunningMontana = document.getElementById("tarjetaMontana")
 let menuAparece = document.getElementById(`menu`)
 let zapatillaRunningAmateur = `./imagenes/zapatillaRunningAmateur.jpg`
 let zapatillaRunningProfesional = `./imagenes/zapatillaRunningProfesional.jpg`
@@ -12,13 +12,13 @@ let navOculto = document.getElementById (`navOculto`)
 function displayMenu(menuOculto) {
 menuOculto.onclick = () => {
       
-    menuOculto.innerHTML = `<ul class="navBar" id="navBar" display="none">
-  <li> <a href="index.html" class="aLi"> Inicio </a></li>
-  <li> <a href=#amateur class="aLi">Amateur</a></li>
-  <li> <a href=#profesional class="aLi">Profesional</a></li>
-  <li> <a href=#montana class="aLi">Trail</a></li>
-  <li> <a href="./distribuidores.html" class="aLi">Distribuidores</a></li>
-  <li> <a href=#contacto class="aLi">Contacto</a></li>
+    menuOculto.innerHTML = `<ul class="navBar" id="navBar" >
+  <li> <a href="index.html" class="aLi" id="liInicio"> Inicio </a></li>
+  <li> <a href=#amateur class="aLi" id="liAmateur">Amateur</a></li>
+  <li> <a href=#profesional class="aLi" id="liProfesional">Profesional</a></li>
+  <li> <a href=#montana class="aLi" id="liTrail">Trail</a></li>
+  <li> <a href="./distribuidores.html" class="aLi" id="liDistribuidores">Distribuidores</a></li>
+  <li> <a href=#contacto class="aLi" id="liContacto">Contacto</a></li>
 </ul>`
 }
 }
